@@ -13,6 +13,7 @@ inhibit_all_warnings!
   pod 'SwiftCharts'
   pod 'MBProgressHUD', '1.1.0'                 #蒙版，
   pod 'Toast', '4.0.0'                         #toast
+  pod 'FMDB'                                   #数据库
 
 
 

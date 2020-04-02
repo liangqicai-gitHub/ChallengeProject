@@ -12,6 +12,7 @@ import HighPrecisionCalculate
 
 class CPQuarterReportModel: HandyJSON {
     required init() {}
+    var _id = 0
     var volume_of_mobile_data = "0.0"
     var quarter = ""  // "2004-Q3"
     

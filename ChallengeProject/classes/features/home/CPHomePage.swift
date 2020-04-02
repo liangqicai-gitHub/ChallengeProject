@@ -79,9 +79,23 @@ class CPHomePage: BasePage {
                 sself.yearData.generateNewYearModel(data.result ?? [])
                 sself.tableview.reloadData()
                 
+                CPHomeDataCaheTool.insert(data.result ?? [])
                 
             case .failure(let err):
                 sself.view.hud_showToast(err.errorMsg)
+                
+                CPHomeDataCaheTool.select(offset: sself.offset, limit: 10) { (data) in
+                    if isRefresh {
+                        sself.offset = 10
+                        sself.yearData.removeAll()
+                    }
+                    
+                    sself.offset += data.count
+                    sself.yearData.generateNewYearModel(data)
+                    sself.tableview.reloadData()
+                    
+                    sself.view.hud_showToast("这是缓存数据")
+                }
             }
         }
         

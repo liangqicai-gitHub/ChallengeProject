@@ -60,6 +60,15 @@
 		DF9C7CE92436530B003FAA8E /* Thread+safeMainAsyn.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9C7CE82436530B003FAA8E /* Thread+safeMainAsyn.swift */; };
 		DF9C7CEA2436530B003FAA8E /* Thread+safeMainAsyn.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9C7CE82436530B003FAA8E /* Thread+safeMainAsyn.swift */; };
 		DF9C7CEB2436530B003FAA8E /* Thread+safeMainAsyn.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9C7CE82436530B003FAA8E /* Thread+safeMainAsyn.swift */; };
+		DF9C7CEE243677AA003FAA8E /* CPHomeDataCaheTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9C7CED243677AA003FAA8E /* CPHomeDataCaheTool.swift */; };
+		DF9C7CEF243677AA003FAA8E /* CPHomeDataCaheTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9C7CED243677AA003FAA8E /* CPHomeDataCaheTool.swift */; };
+		DF9C7CF0243677AA003FAA8E /* CPHomeDataCaheTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9C7CED243677AA003FAA8E /* CPHomeDataCaheTool.swift */; };
+		DF9C7CF224367896003FAA8E /* DataBaseTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9C7CF124367896003FAA8E /* DataBaseTool.swift */; };
+		DF9C7CF324367896003FAA8E /* DataBaseTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9C7CF124367896003FAA8E /* DataBaseTool.swift */; };
+		DF9C7CF424367896003FAA8E /* DataBaseTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9C7CF124367896003FAA8E /* DataBaseTool.swift */; };
+		DF9C7CF624367D00003FAA8E /* db.sql in Resources */ = {isa = PBXBuildFile; fileRef = DF9C7CF524367D00003FAA8E /* db.sql */; };
+		DF9C7CF724367D00003FAA8E /* db.sql in Resources */ = {isa = PBXBuildFile; fileRef = DF9C7CF524367D00003FAA8E /* db.sql */; };
+		DF9C7CF824367D00003FAA8E /* db.sql in Resources */ = {isa = PBXBuildFile; fileRef = DF9C7CF524367D00003FAA8E /* db.sql */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -119,6 +128,9 @@
 		DF9C7CDD24363AE1003FAA8E /* CPHomePageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CPHomePageCell.xib; sourceTree = "<group>"; };
 		DF9C7CE4243652F7003FAA8E /* UIView+hud.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+hud.swift"; sourceTree = "<group>"; };
 		DF9C7CE82436530B003FAA8E /* Thread+safeMainAsyn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Thread+safeMainAsyn.swift"; sourceTree = "<group>"; };
+		DF9C7CED243677AA003FAA8E /* CPHomeDataCaheTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPHomeDataCaheTool.swift; sourceTree = "<group>"; };
+		DF9C7CF124367896003FAA8E /* DataBaseTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseTool.swift; sourceTree = "<group>"; };
+		DF9C7CF524367D00003FAA8E /* db.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = db.sql; sourceTree = "<group>"; };
 		FB7148FB37086E28AB1ED6A2 /* Pods-ChallengeProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChallengeProjectUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChallengeProjectUITests/Pods-ChallengeProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -179,6 +191,7 @@
 		DF2C194424360DFE00ED0F2F /* classes */ = {
 			isa = PBXGroup;
 			children = (
+				DF9C7CEC24367739003FAA8E /* DataCaching */,
 				DF9C7CD72436310B003FAA8E /* models */,
 				DF9C7CC424362A5B003FAA8E /* config */,
 				DF2C197D24361BF200ED0F2F /* API */,
@@ -340,6 +353,16 @@
 			path = models;
 			sourceTree = "<group>";
 		};
+		DF9C7CEC24367739003FAA8E /* DataCaching */ = {
+			isa = PBXGroup;
+			children = (
+				DF9C7CED243677AA003FAA8E /* CPHomeDataCaheTool.swift */,
+				DF9C7CF124367896003FAA8E /* DataBaseTool.swift */,
+				DF9C7CF524367D00003FAA8E /* db.sql */,
+			);
+			path = DataCaching;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -453,6 +476,7 @@
 				DF4293802436054C002199B7 /* Assets.xcassets in Resources */,
 				DF9C7CE124363AE1003FAA8E /* CPHomePageCell.xib in Resources */,
 				DF9C7CD224362BC6003FAA8E /* UAT.xcconfig in Resources */,
+				DF9C7CF624367D00003FAA8E /* db.sql in Resources */,
 				DF2C194324360DCD00ED0F2F /* LaunchScreen.storyboard in Resources */,
 				DF9C7CCE24362BA5003FAA8E /* Debug.xcconfig in Resources */,
 			);
@@ -462,6 +486,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF9C7CF724367D00003FAA8E /* db.sql in Resources */,
 				DF9C7CE224363AE1003FAA8E /* CPHomePageCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -470,6 +495,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF9C7CF824367D00003FAA8E /* db.sql in Resources */,
 				DF9C7CE324363AE1003FAA8E /* CPHomePageCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -487,6 +513,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ChallengeProject/Pods-ChallengeProject-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
 				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/HighPrecisionCalculate-iOS/HighPrecisionCalculate.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
@@ -500,6 +527,7 @@
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HighPrecisionCalculate.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
@@ -586,9 +614,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF9C7CF224367896003FAA8E /* DataBaseTool.swift in Sources */,
 				DF9C7CC624362A7A003FAA8E /* AppConfig.swift in Sources */,
 				DF2C1969243613B200ED0F2F /* BaseNavigationController.swift in Sources */,
 				DF9C7CE92436530B003FAA8E /* Thread+safeMainAsyn.swift in Sources */,
+				DF9C7CEE243677AA003FAA8E /* CPHomeDataCaheTool.swift in Sources */,
 				DF9C7CD9243631F8003FAA8E /* CPQuarterReportModel.swift in Sources */,
 				DF9C7CC124362A2A003FAA8E /* BaseHttpApi.swift in Sources */,
 				DF9C7CDE24363AE1003FAA8E /* CPHomePageCell.swift in Sources */,
@@ -607,9 +637,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF9C7CF324367896003FAA8E /* DataBaseTool.swift in Sources */,
 				DF9C7CC724362A7A003FAA8E /* AppConfig.swift in Sources */,
 				DF2C196A243613B200ED0F2F /* BaseNavigationController.swift in Sources */,
 				DF9C7CEA2436530B003FAA8E /* Thread+safeMainAsyn.swift in Sources */,
+				DF9C7CEF243677AA003FAA8E /* CPHomeDataCaheTool.swift in Sources */,
 				DF9C7CDA243631F8003FAA8E /* CPQuarterReportModel.swift in Sources */,
 				DF9C7CC224362A2A003FAA8E /* BaseHttpApi.swift in Sources */,
 				DF9C7CDF24363AE1003FAA8E /* CPHomePageCell.swift in Sources */,
@@ -628,9 +660,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF9C7CF424367896003FAA8E /* DataBaseTool.swift in Sources */,
 				DF9C7CC824362A7A003FAA8E /* AppConfig.swift in Sources */,
 				DF2C196B243613B200ED0F2F /* BaseNavigationController.swift in Sources */,
 				DF9C7CEB2436530B003FAA8E /* Thread+safeMainAsyn.swift in Sources */,
+				DF9C7CF0243677AA003FAA8E /* CPHomeDataCaheTool.swift in Sources */,
 				DF9C7CDB243631F8003FAA8E /* CPQuarterReportModel.swift in Sources */,
 				DF9C7CC324362A2A003FAA8E /* BaseHttpApi.swift in Sources */,
 				DF9C7CE024363AE1003FAA8E /* CPHomePageCell.swift in Sources */,
