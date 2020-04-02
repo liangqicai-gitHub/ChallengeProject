@@ -1,0 +1,6 @@
+framework module HighPrecisionCalculate {
+  umbrella header "HighPrecisionCalculate-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,15 @@
+//
+//  UAT.xcconfig
+//  ChallengeProject
+//
+//  Created by 孙宁宁 on 2/4/2020.
+//  Copyright © 2020 梁齐才. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "Pods/Target Support Files/Pods-ChallengeProject/Pods-ChallengeProject.uat.xcconfig"
+
+Config_displayName = UAT版本
+Config_flag = Config_flag_UAT

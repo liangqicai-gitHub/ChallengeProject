@@ -1,0 +1,44 @@
+PODS:
+  - Alamofire (4.9.0)
+  - HandyJSON (5.0.0)
+  - HighPrecisionCalculate-iOS (1.0.5)
+  - MBProgressHUD (1.1.0)
+  - MJRefresh (3.2.0)
+  - SnapKit (4.2.0)
+  - SwiftCharts (0.6.5)
+  - Toast (4.0.0)
+
+DEPENDENCIES:
+  - Alamofire (= 4.9.0)
+  - HandyJSON (= 5.0.0)
+  - HighPrecisionCalculate-iOS (= 1.0.5)
+  - MBProgressHUD (= 1.1.0)
+  - MJRefresh (= 3.2.0)
+  - SnapKit (= 4.2.0)
+  - SwiftCharts
+  - Toast (= 4.0.0)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - HandyJSON
+    - HighPrecisionCalculate-iOS
+    - MBProgressHUD
+    - MJRefresh
+    - SnapKit
+    - SwiftCharts
+    - Toast
+
+SPEC CHECKSUMS:
+  Alamofire: afc3e7c6db61476cb45cdd23fed06bad03bbc321
+  HandyJSON: 992f2d661716d6a91de82d0056927bc7813b5770
+  HighPrecisionCalculate-iOS: 860edb71b6bd893c4533d635e20f835302d029e2
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MJRefresh: ed450d6eb9d3346a2cb033ab7eb6de090aeef437
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SwiftCharts: 2e755ea292f0b87d3e4b2c1eb5afc080a20cdc15
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+
+PODFILE CHECKSUM: 9400ad011753af50c51dbc578151393432d0ff8c
+
+COCOAPODS: 1.5.0
