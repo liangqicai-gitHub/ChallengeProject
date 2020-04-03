@@ -153,17 +153,6 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/SwiftCharts/SwiftCharts.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Toast/Toast.framework"
 fi
-if [[ "$CONFIGURATION" == "Uat" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/HighPrecisionCalculate-iOS/HighPrecisionCalculate.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/SwiftCharts/SwiftCharts.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/Toast/Toast.framework"
-fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework"

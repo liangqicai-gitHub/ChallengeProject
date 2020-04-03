@@ -14,15 +14,16 @@ struct AppConfig {
     }
     
     private static var currentConfig: AppConfigType {
-        #if Config_flag_Debug
-            return .Debug
-        #elseif Config_flag_Release
-            return .Release
-        #elseif Config_flag_UAT
-            return .Uat
-        #else
-            return .Release
-        #endif
+        return .Release
+//        #if Config_flag_Debug
+//            return .Debug
+//        #elseif Config_flag_Release
+//            return .Release
+//        #elseif Config_flag_UAT
+//            return .Uat
+//        #else
+//            return .Release
+//        #endif
     }
     
     static var isRelease: Bool {
