@@ -34,7 +34,7 @@ class CPHomeDataCaheTool: NSObject {
         })
     }
     
-    
+    // the block is synchronous
     static func select(offset: Int,
                        limit: Int,
                        block: @escaping ([CPQuarterReportModel]) -> Void)

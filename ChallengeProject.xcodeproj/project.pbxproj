@@ -10,7 +10,12 @@
 		89BE58DEFD893F0B8DC4895A /* Pods_ChallengeProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B85F921BF044F2BE490D2E9D /* Pods_ChallengeProjectUITests.framework */; };
 		C89EE373E7B6413B82D2FFAB /* Pods_ChallengeProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8C951753A217D6722DF8F61 /* Pods_ChallengeProjectTests.framework */; };
 		D121F263DD7FEBD2633E065C /* Pods_ChallengeProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C794387533226AF31657CC4 /* Pods_ChallengeProject.framework */; };
-		DFA06B9E2437AEF300E1BBFF /* ChallengeProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA06B9D2437AEF300E1BBFF /* ChallengeProjectTests.swift */; };
+		DF251E6C2438A2180014BA1E /* Result+test.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF251E6B2438A2180014BA1E /* Result+test.swift */; };
+		DF251E6F2438A2690014BA1E /* DataCachingTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF251E6E2438A2690014BA1E /* DataCachingTestCase.swift */; };
+		DF251E722438AE0C0014BA1E /* HttpClientTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF251E712438AE0C0014BA1E /* HttpClientTestCase.swift */; };
+		DF251E782438DC610014BA1E /* AppConfigTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF251E772438DC610014BA1E /* AppConfigTestCase.swift */; };
+		DF251E7B2438DDE60014BA1E /* ModelsTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF251E7A2438DDE60014BA1E /* ModelsTestCase.swift */; };
+		DF2CE0F624389F1600D061F9 /* BaseTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2CE0F524389F1600D061F9 /* BaseTestCase.swift */; };
 		DFA06BA92437AEF300E1BBFF /* ChallengeProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA06BA82437AEF300E1BBFF /* ChallengeProjectUITests.swift */; };
 		DFA06BB82437AF9000E1BBFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA06BB72437AF9000E1BBFF /* AppDelegate.swift */; };
 		DFA06C022437B13400E1BBFF /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA06BE82437B13400E1BBFF /* HttpClient.swift */; };
@@ -60,10 +65,15 @@
 		B45A1B549E834527EEF0EEFB /* Pods-ChallengeProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChallengeProjectTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChallengeProjectTests/Pods-ChallengeProjectTests.release.xcconfig"; sourceTree = "<group>"; };
 		B85F921BF044F2BE490D2E9D /* Pods_ChallengeProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChallengeProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0D72FFE61820AB81ED53CDA /* Pods-ChallengeProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChallengeProjectTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChallengeProjectTests/Pods-ChallengeProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DF251E6B2438A2180014BA1E /* Result+test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Result+test.swift"; sourceTree = "<group>"; };
+		DF251E6E2438A2690014BA1E /* DataCachingTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCachingTestCase.swift; sourceTree = "<group>"; };
+		DF251E712438AE0C0014BA1E /* HttpClientTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpClientTestCase.swift; sourceTree = "<group>"; };
+		DF251E772438DC610014BA1E /* AppConfigTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfigTestCase.swift; sourceTree = "<group>"; };
+		DF251E7A2438DDE60014BA1E /* ModelsTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelsTestCase.swift; sourceTree = "<group>"; };
+		DF2CE0F524389F1600D061F9 /* BaseTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTestCase.swift; sourceTree = "<group>"; };
 		DFA06B832437AEF100E1BBFF /* ChallengeProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChallengeProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFA06B942437AEF300E1BBFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DFA06B992437AEF300E1BBFF /* ChallengeProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChallengeProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DFA06B9D2437AEF300E1BBFF /* ChallengeProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeProjectTests.swift; sourceTree = "<group>"; };
 		DFA06B9F2437AEF300E1BBFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DFA06BA42437AEF300E1BBFF /* ChallengeProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChallengeProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFA06BA82437AEF300E1BBFF /* ChallengeProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeProjectUITests.swift; sourceTree = "<group>"; };
@@ -142,6 +152,54 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		DF251E6D2438A2220014BA1E /* DataCachingTest */ = {
+			isa = PBXGroup;
+			children = (
+				DF251E6E2438A2690014BA1E /* DataCachingTestCase.swift */,
+			);
+			path = DataCachingTest;
+			sourceTree = "<group>";
+		};
+		DF251E702438ADD90014BA1E /* httpClientTest */ = {
+			isa = PBXGroup;
+			children = (
+				DF251E712438AE0C0014BA1E /* HttpClientTestCase.swift */,
+			);
+			path = httpClientTest;
+			sourceTree = "<group>";
+		};
+		DF251E732438B3550014BA1E /* helper */ = {
+			isa = PBXGroup;
+			children = (
+				DF251E6B2438A2180014BA1E /* Result+test.swift */,
+			);
+			path = helper;
+			sourceTree = "<group>";
+		};
+		DF251E762438DC290014BA1E /* configTest */ = {
+			isa = PBXGroup;
+			children = (
+				DF251E772438DC610014BA1E /* AppConfigTestCase.swift */,
+			);
+			path = configTest;
+			sourceTree = "<group>";
+		};
+		DF251E792438DD9E0014BA1E /* modelsTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				DF251E7A2438DDE60014BA1E /* ModelsTestCase.swift */,
+			);
+			path = modelsTestCase;
+			sourceTree = "<group>";
+		};
+		DF2CE0F424389E6900D061F9 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				DF2CE0F524389F1600D061F9 /* BaseTestCase.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 		DFA06B7A2437AEF100E1BBFF = {
 			isa = PBXGroup;
 			children = (
@@ -177,7 +235,12 @@
 		DFA06B9C2437AEF300E1BBFF /* ChallengeProjectTests */ = {
 			isa = PBXGroup;
 			children = (
-				DFA06B9D2437AEF300E1BBFF /* ChallengeProjectTests.swift */,
+				DF251E732438B3550014BA1E /* helper */,
+				DF251E792438DD9E0014BA1E /* modelsTestCase */,
+				DF251E762438DC290014BA1E /* configTest */,
+				DF251E702438ADD90014BA1E /* httpClientTest */,
+				DF251E6D2438A2220014BA1E /* DataCachingTest */,
+				DF2CE0F424389E6900D061F9 /* Base */,
 				DFA06B9F2437AEF300E1BBFF /* Info.plist */,
 			);
 			path = ChallengeProjectTests;
@@ -580,7 +643,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFA06B9E2437AEF300E1BBFF /* ChallengeProjectTests.swift in Sources */,
+				DF2CE0F624389F1600D061F9 /* BaseTestCase.swift in Sources */,
+				DF251E782438DC610014BA1E /* AppConfigTestCase.swift in Sources */,
+				DF251E6F2438A2690014BA1E /* DataCachingTestCase.swift in Sources */,
+				DF251E722438AE0C0014BA1E /* HttpClientTestCase.swift in Sources */,
+				DF251E6C2438A2180014BA1E /* Result+test.swift in Sources */,
+				DF251E7B2438DDE60014BA1E /* ModelsTestCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
