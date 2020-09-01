@@ -45,7 +45,7 @@ class CPDataStoresearchAPI: BaseHttpApi {
             }
         }
         
-        return HttpClient.get([String : Any].self, BaseUrl + "/api/action/datastore_search",
+        return HttpClient.get(BaseUrl + "/api/action/datastore_search",
                               p,
                               callback)
     }

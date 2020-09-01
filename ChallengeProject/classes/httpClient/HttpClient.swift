@@ -25,28 +25,25 @@ class HttpClient {
     
     
     static func post<T>(
-        _ dataType: T.Type,
         _ url: String,
         _ parameters: Parameters?,
         _ block: @escaping (HttpClientResponse<T>) -> Void)
         -> DataRequest
     {
-        return normalDataRequest(dataType, url, .post, parameters, nil, block)
+        return normalDataRequest(url, .post, parameters, nil, block)
     }
     
 
     static func get<T>(
-        _ dataType: T.Type,
         _ url: String,
         _ parameters: Parameters?,
         _ block: @escaping (HttpClientResponse<T>) -> Void)
         -> DataRequest
     {
-        return normalDataRequest(dataType, url, .get, parameters, nil, block)
+        return normalDataRequest(url, .get, parameters, nil, block)
     }
     
     private static func normalDataRequest<T>(
-        _ dataType: T.Type,
         _ url: String,
         _ method: HTTPMethod,
         _ parameters: Parameters?,
@@ -68,11 +65,10 @@ class HttpClient {
                                                  encoding: method == HTTPMethod.get ? URLEncoding.default : JSONEncoding.default,
                                                  headers: header)
         
-        return dataRequest.responseJSON { (response) in handleReponse(dataType, response, block) }
+        return dataRequest.responseJSON { (response) in handleReponse(response, block) }
     }
     
     private static func handleReponse<T>(
-        _ dataType: T.Type,
         _ response: DataResponse<Any> ,
         _ block: @escaping (HttpClientResponse<T>) -> Void)
     {
