@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		044AB7E424FE2C7D00EEFD5C /* UIView+xib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044AB7E324FE2C7D00EEFD5C /* UIView+xib.swift */; };
+		044AB7E624FE2DF800EEFD5C /* UIViewController+sb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044AB7E524FE2DF800EEFD5C /* UIViewController+sb.swift */; };
 		89BE58DEFD893F0B8DC4895A /* Pods_ChallengeProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B85F921BF044F2BE490D2E9D /* Pods_ChallengeProjectUITests.framework */; };
 		C89EE373E7B6413B82D2FFAB /* Pods_ChallengeProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8C951753A217D6722DF8F61 /* Pods_ChallengeProjectTests.framework */; };
 		D121F263DD7FEBD2633E065C /* Pods_ChallengeProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C794387533226AF31657CC4 /* Pods_ChallengeProject.framework */; };
@@ -57,6 +59,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		044AB7E324FE2C7D00EEFD5C /* UIView+xib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+xib.swift"; sourceTree = "<group>"; };
+		044AB7E524FE2DF800EEFD5C /* UIViewController+sb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+sb.swift"; sourceTree = "<group>"; };
 		0C794387533226AF31657CC4 /* Pods_ChallengeProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChallengeProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		48C363358B615E4E6330AF7A /* Pods-ChallengeProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChallengeProjectUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChallengeProjectUITests/Pods-ChallengeProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7F08FC07D50BEE40290FBA44 /* Pods-ChallengeProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChallengeProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChallengeProject/Pods-ChallengeProject.debug.xcconfig"; sourceTree = "<group>"; };
@@ -291,6 +295,8 @@
 			isa = PBXGroup;
 			children = (
 				DFA06BEA2437B13400E1BBFF /* UIView+hud.swift */,
+				044AB7E324FE2C7D00EEFD5C /* UIView+xib.swift */,
+				044AB7E524FE2DF800EEFD5C /* UIViewController+sb.swift */,
 				DFA06BEB2437B13400E1BBFF /* UIViewControllerSafeArea.swift */,
 				DFA06BEC2437B13400E1BBFF /* Thread+safeMainAsyn.swift */,
 			);
@@ -624,8 +630,10 @@
 				DFA06C052437B13400E1BBFF /* Thread+safeMainAsyn.swift in Sources */,
 				DFA06C0D2437B13400E1BBFF /* CPQuarterReportModel.swift in Sources */,
 				DFA06C032437B13400E1BBFF /* UIView+hud.swift in Sources */,
+				044AB7E424FE2C7D00EEFD5C /* UIView+xib.swift in Sources */,
 				DFA06C112437B13400E1BBFF /* BasePage.swift in Sources */,
 				DFA06C022437B13400E1BBFF /* HttpClient.swift in Sources */,
+				044AB7E624FE2DF800EEFD5C /* UIViewController+sb.swift in Sources */,
 				DFA06C062437B13400E1BBFF /* AppConfig.swift in Sources */,
 				DFA06C092437B13400E1BBFF /* CPHomePage.swift in Sources */,
 				DFA06C122437B13400E1BBFF /* BaseNavigationController.swift in Sources */,

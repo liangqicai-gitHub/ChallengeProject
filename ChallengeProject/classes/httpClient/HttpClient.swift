@@ -23,11 +23,10 @@ class HttpClient {
     }()
 
     
-    
     static func post<T>(
         _ url: String,
-        _ parameters: Parameters?,
-        _ block: @escaping (HttpClientResponse<T>) -> Void)
+        parameters: Parameters?,
+        block: @escaping (HttpClientResponse<T>) -> Void)
         -> DataRequest
     {
         return normalDataRequest(url, .post, parameters, nil, block)
@@ -36,8 +35,8 @@ class HttpClient {
 
     static func get<T>(
         _ url: String,
-        _ parameters: Parameters?,
-        _ block: @escaping (HttpClientResponse<T>) -> Void)
+        parameters: Parameters?,
+        block: @escaping (HttpClientResponse<T>) -> Void)
         -> DataRequest
     {
         return normalDataRequest(url, .get, parameters, nil, block)

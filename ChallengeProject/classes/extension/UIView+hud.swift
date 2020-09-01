@@ -25,8 +25,6 @@ extension UIView{
         }
     }
     
-    
-    
     func hud_showLoading() {
         Thread.safe_main {
             guard self.loadingHud == nil else {return}
